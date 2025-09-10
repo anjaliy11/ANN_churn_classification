@@ -11,14 +11,14 @@ This project demonstrates the application of Artificial Neural Networks (ANNs) t
 
 ---
 
----
+
  ### 📊 Project Overview
 
 Customer churn prediction is crucial for businesses aiming to retain valuable clients. This repository implements an ANN to classify customers based on various features, such as demographics, account information, and usage patterns.
 
 
 ---
----
+
 
 ### 🧪 Features
 
@@ -32,7 +32,7 @@ Deployment: Creating an interactive web application using Streamlit for real-tim
 
 ---
 
----
+
 
 ### 🛠️ Technologies Used
 
@@ -48,47 +48,60 @@ Version Control: Git
 
 ---
 
----
+
 ### 📁 Project Structure
 .
-├── app.py                     # Streamlit application for real-time predictions
-├── Churn_Modelling.csv        # Dataset containing customer information
-├── experiments.ipynb          # Jupyter notebook for exploratory data analysis
-├── hyperparametertuningann.ipynb # Jupyter notebook for hyperparameter tuning
-├── prediction.ipynb           # Jupyter notebook for making predictions
-├── salaryregression.ipynb     # Jupyter notebook for salary regression analysis
-├── requirements.txt           # Python dependencies
-├── scaler.pkl                 # StandardScaler object for feature scaling
-├── label_encoder_gender.pkl   # LabelEncoder for encoding gender
-├── onehot_encoder_geo.pkl     # OneHotEncoder for encoding geography
-└── my_model.keras             # Trained ANN model
+├── app.py 
+        # Streamlit application for real-time predictions
+├── Churn_Modelling.csv 
+       # Dataset containing customer information
+├── experiments.ipynb    
+      # Jupyter notebook for exploratory data analysis
+├── hyperparametertuningann.ipynb 
+      # Jupyter notebook for hyperparameter tuning
+├── prediction.ipynb         
+      # Jupyter notebook for making predictions
+├── salaryregression.ipynb  
+     # Jupyter notebook for salary regression analysis
+├── requirements.txt         
+     # Python dependencies
+├── scaler.pkl                
+      # StandardScaler object for feature scaling
+├── label_encoder_gender.pkl  
+     # LabelEncoder for encoding gender
+├── onehot_encoder_geo.pkl    
+     # OneHotEncoder for encoding geography
+└── my_model.keras            
+     # Trained ANN model
 
 ---
----
+
 ### 🚀 Getting Started
 pip install -r requirements.txt
 
 ---
----
+
 
 ### Running the Streamlit App
 
 Start the Streamlit application:
 streamlit run app.py
+
 Access the application in your browser at http://localhost:8501.
 
 ---
----
+
 
 ### 📈 Model Performance
 
 Test Accuracy: 85.95%
+
 Test Loss: 0.3370
 
 These metrics indicate a well-performing model capable of accurately predicting customer churn.
 
 ---
----
+
 
 ### 🔧 How It Works
 
